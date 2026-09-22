@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-08-30T00:19:52.499Z",
+  "users": [
+    {
+      "id": 1,
+      "phone": "9876543210",
+      "name": "Ramesh Patil (Farmer)",
+      "city": "Pune",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "phone": "9123456789",
+      "name": "Suresh Deshmukh",
+      "city": "Nashik",
+      "role": "user"
+    }
+  ],
+  "screening_records": [
+    {
+      "id": "scr-101",
+      "user_phone": "9876543210",
+      "animal_type": "Cattle (Cow)",
+      "breed": "Gir Cow",
+      "symptoms": [
+        "Lumpy skin nodules",
+        "High fever",
+        "Reduced milk yield"
+      ],
+      "predicted_disease": "Lumpy Skin Disease (LSD)",
+      "confidence": 0.94,
+      "advisory": "Isolate affected cow immediately. Apply antiseptic spray to nodules. Vaccinate healthy herd with Goat Pox Vaccine.",
+      "timestamp": "2026-08-27T00:19:52.499Z"
+    },
+    {
+      "id": "scr-102",
+      "user_phone": "9876543210",
+      "animal_type": "Cattle (Cow)",
+      "breed": "HF Cross",
+      "symptoms": [
+        "Swollen udder",
+        "Clots in milk",
+        "Painful milking"
+      ],
+      "predicted_disease": "Bovine Mastitis",
+      "confidence": 0.91,
+      "advisory": "Administer intra-mammary infusions after milking. Maintain strict hygiene during milking.",
+      "timestamp": "2026-08-29T00:19:52.499Z"
+    },
+    {
+      "id": "scr-103",
+      "user_phone": "9123456789",
+      "animal_type": "Poultry (Chicken)",
+      "breed": "Broiler",
+      "symptoms": [
+        "Gasping for air",
+        "Greenish diarrhea",
+        "High mortality"
+      ],
+      "predicted_disease": "Ranikhet Disease (Newcastle)",
+      "confidence": 0.96,
+      "advisory": "Strict biosecurity. Administer Lasota vaccine via drinking water. Disinfect farm premises.",
+      "timestamp": "2026-08-29T12:19:52.499Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "user_phone": "9876543210",
+      "doctor_name": "Dr. Ananya Patil",
+      "animal_type": "Gir Cow",
+      "date": "2026-08-31",
+      "time": "10:30 AM",
+      "status": "CONFIRMED",
+      "fee": 300
+    }
+  ]
+}
